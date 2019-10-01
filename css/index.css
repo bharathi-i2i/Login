@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("../fonts/Sultan Nahia W20.ttf");
+}
+@font-face {
+    font-family: "EmailFont";
+    src: url("../fonts/Sofia Pro Light.ttf");
+}
+body {
+    margin:0;
+    font-family: CustomFont;
+    background-image: url("../img/bg2-opacity1.jpg");
+}
+.container {
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center; 
+}
+
+.main-fluid {
+    margin-top: 9%;
+    width: 53%;
+    height: 65%;
+    display:flex;
+    background-color: #ffffff;
+    border-radius: 3%;
+}
+.profile-side {
+    width:50%;
+    display:inline-block;
+    background-color: #ffffff;
+    border-radius: 3%;
+}
+
+.login-side {
+    width:50%;
+    display:inline-block;
+    background-color: #ffffff;
+    border-radius: 3%;
+}
+
+.profile-side img {
+    width: 65.7%;
+    padding-top: 9.2rem;
+    padding-left: 5.2rem;
+}
+
+.member-login {
+    /*Font name: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif
+
+Font size: 16px
+
+Font weight: 400
+
+Line height: 16px
+
+Font color: rgb(153, 153, 153)*/
+    padding-top: 8.8rem;
+    font-style: Sultan Nahia Regular;
+    padding-left: 6.2rem;
+    font-size: 28.8px;
+    color:#363636;
+}
+
+.email {
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 0.6rem;
+    margin-top: 2.5em;
+    width: 55%;
+    margin-left: 3.2rem;
+    border-radius: 25px;
+    min-height: 4.45%;
+}
+
+.fa.fa-envelope {
+    opacity: 0.58;
+    font-size: 0.78rem;
+    padding-top: 0.25rem;
+    padding-left: 1.15rem;
+}
+.email-id {
+    border-style: hidden;
+    background-color: #e5e5e5;
+    padding-left: 1rem;
+    width: 28%;
+    font-family:EmailFont;
+    font-weight: 600;
+    font-size: small;
+}
+
+.password {
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 0.6rem;
+    margin-top: 0.5em;
+    width: 55%;
+    margin-left: 3.2rem;
+    border-radius: 25px;
+    min-height: 4.45%;
+}
+
+.fa.fa-lock {
+    opacity: 0.58;
+    font-size: 0.98rem;
+    padding-top: 0.25rem;
+    padding-left: 1.15rem;
+}
+
+.pwd {
+    border-style: hidden;
+    background-color: #e5e5e5;
+    padding-left: 1rem;
+    width: 40%;
+    font-family:EmailFont;
+    font-weight: 600;
+    font-size: small;
+}
+
+.login-button {
+    display: flex;
+    background-color: #58f5e5;
+    padding: 0.6rem;
+    margin-top: 1.6em;
+    width: 55%;
+    margin-left: 3.2rem;
+    border-radius: 25px;
+    height: 4.45%;
+}
+
+#login {
+    font-family:CustomFont;
+    margin-left: 5.15rem;
+    border: transparent;
+    background-color: #58f5e5;
+    color: white;
+    font-size: 17px;
+}
+
+.forget {
+    display: flex;
+    background-color: white;
+    margin-top: 0.5em;
+    width: 55%;
+    margin-left: 3.2rem;
+    border-radius: 25px;
+    min-height: 4.45%;
+}
+
+#forget-button {
+    font-family:EmailFont;
+    border: transparent;
+    background-color:white;
+    color: #989898;
+    font-size: 0.75rem;
+    padding-left: 3em;
+    font-weight: 600;
+}
+
+.create-account {
+    display: flex;
+    background-color: white;
+    margin-top: 3.2em;
+    width: 55%;
+    margin-left: 4.4rem;
+    border-radius: 25px;
+    min-height: 4.45%;
+}
+
+#create-button {
+    font-family:EmailFont;
+    border: transparent;
+    background-color:white;
+    font-size: 11.5px;
+    padding-left: 3.5em;
+    color: #989898;
+    font-weight: 600;
+}
